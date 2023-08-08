@@ -1,5 +1,13 @@
 package main
 
+import (
+	"fmt"
+	"time"
+)
+
 func main() {
-	// задание m1 task1
+	now := time.Now()
+	fmt.Println("Hello world")
+	fmt.Println(now.Format("02-01-2006 15:04"))
+
 }
